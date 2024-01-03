@@ -1,0 +1,13 @@
+body{
+
+    background-color:;
+}
+/* CLASS SELECTOR */
+css-class {
+    text-decoration:underline;
+}
+
+div > p > strong {
+
+    color: aqua ;
+}
