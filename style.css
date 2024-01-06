@@ -1,13 +1,13 @@
-body{
-
-    background-color:;
+body {
+  background-color: darkblue;
 }
-/* CLASS SELECTOR */
-css-class {
-    text-decoration:underline;
-}
+css-text{
+  color: blue;
+ }
+ li{
 
-div > p > strong {
-
-    color: aqua ;
-}
+ }
+ h1{
+  text-shadow: coral;
+  
+ }
