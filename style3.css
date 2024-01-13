@@ -1,0 +1,134 @@
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/04/61/47/03/360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.box{
+    height: 900px;
+    width: 850px;
+    border: 6px solid rgb(254, 251, 251);
+    box-shadow: aliceblue;
+padding: 12px auto;
+margin: 180px ;
+    display: inline-block;
+    
+
+box-sizing: border-box;
+left: 12px;
+text-align: center;
+}
+
+
+
+.box:hover{
+    /* background-image: url(https://burst.shopifycdn.com/photos/beach-at-sunset-in-teal-and-orange.jpg?width=1000&format=pjpg&exif=0&iptc=0) ; */
+}
+.box2{
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+box-shadow:5px 5px #000;
+    
+   
+}
+.box3{
+    border-top-left-radius:20% ;
+    box-shadow:5px 5px #000;
+}
+.box1{
+    border-top-right-radius:20% ;
+    box-shadow:5px 5px #000;
+}
+
+h2{
+    font-weight: 300;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:none;
+text-align: center;
+text-shadow: -2px 2px #000;
+text-decoration-line: underline;
+font-size: 500%;
+}
+.text:hover{
+ text-overflow: ellipsis;
+}
+h1{
+    background: linear-gradient(white black);
+    color: aliceblue;
+    text-align: center;
+    text-justify: distribute-all-lines ;
+    padding: 19px;text-indent: 30px;
+font-size: 140px;
+font-feature-settings: "abvm";
+text-shadow:5px 5px #000;
+text-decoration: wavy;
+background-origin: border-box;
+margin: 1% auto;
+text-decoration-line: underline;
+
+
+}
+.box1:hover{
+    height: 1000px;
+    border-color: aliceblue;
+    background: darkred;
+    box-decoration-break: slice;
+
+}
+video{
+    height: 900px;
+    width: 850px;
+}
+.box2:hover{
+    height: 1000px;
+    border-color: aliceblue;
+     background-color: darkgreen;
+
+}
+.box3:hover{
+    height: 1000px;
+    border-color: aliceblue;
+    background: blue;
+    
+}
+span{
+
+    color: aliceblue;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    padding: 12px;
+
+}
+
+span:hover{
+    color: goldenrod;
+}
+span1:hover{
+    color: blue;
+}
+span2:hover{
+    color: darkgreen;
+}
+span3:hover{
+    color: darkred;
+}
+strong:hover{
+    color: lawngreen;
+}
+a{
+text-decoration: solid;
+color:#fff;
+text-align: center;
+border: 2px solid #fff;
+font-size: 50px;
+margin: 12px 12px;
+border-start-end-radius: 25%;
+border-end-start-radius: 25%;
+box-shadow: 5px 5px #000;
+}
+a:hover{
+background-color: #fff;
+color: #000;
+}
