@@ -1,0 +1,43 @@
+.parents{
+    min-height: 400px;
+    width: 400px;
+    margin: 4px auto;
+    border: 5px solid rgb(10, 10, 10);
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+/* space-between-corner mai space na do or beech mai equal space dy do */
+  /* space-around: corner mai space do or center mai equal do */
+  /* space-evently: 
+flex-direction
+aligin-item
+justify-content */
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid green;
+    display: flex;
+align-items: center;
+justify-content: center;
+
+}
+nav{
+  height: 40px;
+  background-color: bisque;
+  display: flex;
+
+}
+body{
+  margin: 0px;
+}
+.i{
+  height: 20px;
+  display: flex;
+  justify-content: first baseline;
+}
