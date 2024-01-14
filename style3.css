@@ -132,3 +132,18 @@ a:hover{
 background-color: #fff;
 color: #000;
 }
+
+table{
+    height: 20px;
+    width: 30px;
+    margin: 12px 12px;
+    justify-content: center;
+align-items: center;
+padding: 2px;
+flex-wrap: wrap;
+box-sizing: border-box;
+color: #fff;
+border:2px solid #fff;
+
+}
+
