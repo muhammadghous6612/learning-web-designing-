@@ -186,7 +186,9 @@ h2{
    color: beige;
     text-decoration: underline;
 }
-
+h1{
+    font-size: 2cm;
+}
 form{
     display: flex;
     font-size: 0.7cm;
