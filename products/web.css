@@ -2,22 +2,28 @@ body {
     /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7g1RYsGxfd6LAOUvj1KlA5J-Psld87TmY5w&usqp=CAU); */
  background:linear-gradient(yellow,black);
 }
-
+nav{
+    height: 150px;
+    /* padding: 20px; */
+    width: 100%;
+    position: fixed;
+    background: rgba(11, 11, 11, 0.3) ;
+    z-index: 100;
+    backdrop-filter: blur(30px);
+}
 .parent {
     height: 400px;
     width: 750px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     /* border-bottom: 40px; */
     background-image: url(data:image/jpeg;base64,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);
-    /* margin: 3px auto; */
+  
     border: 2px solid rgb(12, 12, 12);
-    flex-direction: row;
-    z-index: -2;
-margin-top: 5cm;
+   
 }
 
 .page {
@@ -52,7 +58,7 @@ margin-left: 1.3cm ;
 span{
 transform:none ;
 }
-nav {
+/* nav {
 
     background-color: rgb(104, 195, 255);
 
@@ -64,7 +70,7 @@ nav {
     width: 50cm;
     align-items: center;
     
-    margin-top: 0cm;
+    margin-top: 0cm; */
 
 
 
@@ -187,7 +193,9 @@ h2{
     text-decoration: underline;
 }
 h1{
-    font-size: 2cm;
+    margin-top: 2cm;
+    font-size:1cm;
+    color: #f3f4f5;
 }
 form{
     display: flex;
@@ -197,14 +205,15 @@ form{
 }
     
  .boxer{
-    display:inline-block ;
-    justify-content: space-around;
-    margin: 0cm auto;
-    margin-left: 9.5cm;
+   display: flex;
+   text-align: center;
+ 
  }   
 
 input{
     font-size: 0.5cm;
+    display: flex;
+    top: 0;
 }
 
 .page6.fa-brands {
@@ -212,15 +221,17 @@ input{
     margin-left: 12px auto;
     color: rgb(245, 141, 13);
     transform: scale(0.9);
+
 }
 
 .font {
     font-size: 1cm;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: block;
-    text-align: center;
-    margin:1cm;
-    margin-right: 19cm;
+    display: flex;
+    /* text-align: center; */
+justify-content: center;
+    /* margin:1cm;
+    margin-right: 19cm; */
 
 
 }
@@ -228,12 +239,10 @@ input{
 a {
 
     color: #f5f5f7;
-padding: 0cm;
+/* padding: 0cm; */
     font-size: 0.6cm;
-display: inline-block;
-padding-top: 0cm;
-margin: 0cm auto;
-
+padding: 10px;
+gap: 2cm;
     
 }
 
@@ -255,7 +264,7 @@ p {
 .box>.A1 {
     height: 15px;
     width: 15px;
-    border: 5px solid rgb(14, 14, 14);
+    border: 1px solid rgb(14, 14, 14);
     border-radius: 50%;
     display: flex;
     text-align: center;
@@ -267,10 +276,21 @@ margin: 1cm;
 
 
 }
+.box:hover{
+ 
+
+
+}
+
+ 
+
+
+
+
+
 .boxer{
-    
-margin:2cm auto;
-    margin-left: 2cm;
+   display: flex; 
+justify-content: center;
 
 }
 .ah {
@@ -278,10 +298,7 @@ margin:2cm auto;
     margin-right: 12cm;
 
 }
-.box{
-    display: inline-block;
-   
-}
+
 
 
 .box>i {
@@ -291,23 +308,22 @@ margin:2cm auto;
 }
 
 
-.box:hover {
-    background-color: aqua;
+.box:hover{
     color: aliceblue;
-    transform: scale(1.2);
-    box-shadow: 1px 1px rgb(242, 238, 238);
+
 }
 .h1{
-    font-size: 0.7cm;
+    font-size: 40px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align:center;
     font-weight: bold;
 text-decoration:underline;
 text-shadow: #101011;
-text-align: justify;
+
 color:goldenrod;
 text-shadow: 1px 1px black;
-margin-right: 7cm;
+
+/* color: #f3f4f5; */
 }
 .h1:hover{
     color: gold;

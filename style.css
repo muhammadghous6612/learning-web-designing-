@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Trickster";
+  src: url(Oswald-Bold.ttf);
+}
+*{
+   margin: 0;
+   padding: 0;
+    list-style: none;
+    /* text-transform: none; */
+    /* text-decoration: none; */
+}
+body{
+  background-color: goldenrod;
+}
+.height{
+    height:90px;
+}
+.mx-5{
+filter:grayscale(1) brightness(0)
+
+}
+.AA{
+  font-family:Trickster;
+}
+.carousel-item{
+  height:300px
+
+}

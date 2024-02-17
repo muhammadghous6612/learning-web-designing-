@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="iphone.css">
+<!-- <link rel="stylesheet" href="animation.css"> -->
+</head>
+<body>
+    
+    <input type="checkbox" name="" id="check">
+    <label for="check" id="check">
+        <i class="fa-solid fa-bars" style="color: #dfe2e7;" id="cheak"></i>
+        <i class="fa-solid fa-xmark" style="color: #f0f2f4;" id="close"></i>
+    </label>
+    <nav>
+<!-- <div class="top"> -->
+<ul>
+    <img src="data:image/png;base64,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" alt="" height="50px" width="50px" sizes="30px">
+    <li><a href="index.html" >Store</a></li>
+    <li><a href="">Mac</a></li>
+    <li><a href="">iPad</a></li>
+    <li><a href="">iPhone</a></li>
+    <li><a href="">Watch</a></li>
+    <li><a href="">Vision </a></li>
+    <li><a href="">AirPods</a></li>
+    <li><a href="">TV&Home</a></li>
+    <li><a href="">Entertainment</a></li>
+    <li><a href="">Accessorices</a></li>
+    <li><a href="">Support</a></li>
+  <li class="logo"><i class="fa-solid fa-magnifying-glass" style="color: #fcfcfc; margin-top: 10px;" ></i></li>
+  <li class="logo1"><i class="fa-solid fa-bag-shopping" style="color: #ffffff; margin-top: 10px;"></i></li>
+  </ul>
+</nav>
+<div class="parent">
+<div class="child_1"><span class="img"><i class="fa-brands fa-apple"></i>Vision Pro </span>
+
+
+<p>welcome to era of spatail computing.</p>
+<p>Avalible starting 2.2</p>
+<p class="a"><a href="#" style="color: blue;">Learn more>         pre order> </a></p>
+
+
+
+<div class="child_2"></div>
+<div class="child_3"></div>
+<div class="parent2">
+    <div class="childA"></div>
+    <div class="childB"></div>
+    <div class="childC"></div>
+    <div class="childD"></div>
+</div>
+<div class="parent3">
+    <div class="childq"></div>
+</div>
+
+<div class="para"> -->
+<!--     
+<span>
+<p>1.Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit quantity of any trade-in transaction for any reason. More details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply. <br>Available in the U.S. on apple.com, in the Apple Store app, and at Apple Stores.</p>
+<p>To access and use all Apple Card features and products available only to Apple Card users, you must add Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is subject to credit approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA, Salt Lake City Branch.</p>
+<p>If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about Apple card. <br>
+    Learn more about how Apple Card applications are evaluated at support.apple.com/kb/HT209218.<br>
+    A subscription is required for Apple TV+.
+    </p>
+</span>
+
+
+</div> -->
+
+</body>
+</html>
